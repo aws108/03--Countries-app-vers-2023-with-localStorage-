@@ -1,0 +1,11 @@
+<input
+  type="text"
+  class="form-control"
+  [placeholder]="placeholder"
+  [value] = "initialValue"
+  (keyup)="onKeyPress(txtInput.value)"
+  #txtInput
+>
+
+<!-- #txtInput es el input -->
+<!--(keyup.enter)="emitValue( txtInput.value )"-->
